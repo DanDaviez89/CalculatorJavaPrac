@@ -1,0 +1,41 @@
+* {
+    background-color: #f0f8ff;
+}
+
+body h1, 
+     h2 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.btn {
+    height: 100px;
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    color: #f0f8ff;
+    font-size: medium;
+}
+
+#calcScreen {
+    width: 70%;
+    height: 100px;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: black;
+    color: #f0f8ff;
+    font-size: medium;
+}
+
+#numberBox {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
